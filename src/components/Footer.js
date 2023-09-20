@@ -1,7 +1,28 @@
-import React from 'react';
+import React from 'react'
+import {  IoLogoYoutube,
+  IoLogoFacebook,
+  IoLogoGithub,
+  IoLogoInstagram} from 'react-icons/io'
+import { footer } from '../data'
 
 const Footer = () => {
-  return <div>Footer</div>;
-};
+  return (
+    <div className='bg-primary h-full px-4'>
+      <div className='flex lg:flex-row flex-col  justify-between max-w-[1240px] mx-auto lg:items-center item-start py-16'>
+      <h1 className='title text-white'>FurniShop</h1>
+      <div className='flex gap-3'>
+      <IoLogoYoutube className='text-5xl bg-white/10 cursor-pointer rounded-full p-[10px] text-white'/>
+      <IoLogoFacebook className='text-5xl bg-white/10 cursor-pointer rounded-full p-[10px] text-white'/>
+      <IoLogoGithub className='text-5xl bg-white/10 cursor-pointer rounded-full p-[10px] text-white'/>
+      <IoLogoInstagram className='text-5xl bg-white/10 cursor-pointer rounded-full p-[10px] text-white'/>
+      </div>
+      </div>
+      <hr className='max-w-[1040px] mx-auto border-white/20' />
+      <div className='text-center text-white py-20'>
+        {footer.copyright}
+      </div>
+    </div>
+  )
+}
 
-export default Footer;
+export default Footer
