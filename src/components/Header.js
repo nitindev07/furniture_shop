@@ -16,10 +16,10 @@ const Header = () => {
       <div className='flex items-center justify-between text-white '>
         <h1 className='title mb-0'>FurniShop</h1>
         <ul className='hidden lg:flex gap-8 text-lg'>
-          <li><a href="/">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a className='hover:text-white/70' href="/">Home</a></li>
+          <li><a className='hover:text-white/70' href="#about">About</a></li>
+          <li><a className='hover:text-white/70' href="#features">Features</a></li>
+          <li><a className='hover:text-white/70' href="#contact">Contact</a></li>
         </ul>
         <div className='lg:hidden'>
           {navMob ? <AiOutlineClose onClick={()=>setNavMob(!navMob)} className='text-2xl'/> : <CgMenuRight className='text-2xl' onClick={()=>setNavMob(!navMob)}/>}

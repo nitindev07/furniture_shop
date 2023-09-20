@@ -12,8 +12,8 @@ const Newsletter = () => {
             <h1 className='text-3xl md:max-w-[400px] mx-auto md:mx-0 max-w-[280px] md:text-[40px] leading-tight font-semibold mb-4 '>{title}</h1>
             <p className='subtitle'>{subtitle}</p>
             <div className='flex md:flex-row flex-col items-center gap-6 px-5 md:px-0'>
-            <input type="email" name="" id="" className='py-4 rounded-lg px-5 max-w-[410px] w-full' placeholder={placeholder}/>
-            <button className='bg-gray-900 rounded-lg px-8 py-4 w-full  sm:max-w-[150px]'>{buttonText}</button>
+            <input type="email" name="" id="" className='py-4 rounded-lg px-5 max-w-[410px] text-black w-full' placeholder={placeholder}/>
+            <button className='bg-gray-900 rounded-lg px-8 py-4 w-full  sm:max-w-[150px] hover:bg-gray-900/80'>{buttonText}</button>
             </div>
           </div>
          

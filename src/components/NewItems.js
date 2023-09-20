@@ -12,8 +12,8 @@ const NewItems = () => {
             <h2 className='title lg:text-5xl mb-0 lg:mb-16 '>{title}</h2>
             <p className='subtitle font-semibold text-grey mb-0 lg:mb-16'>{subtitle}</p>
             <div className='lg:flex gap-2 items-center cursor-pointer hidden'>
-              <a href="/">{link}</a>
-              <div className='text-2xl'>{icon}</div>
+              <a href="/" className='text-lg'>{link}</a>
+              <div className='text-3xl'>{icon}</div>
             </div>
           </div>
         </div>
