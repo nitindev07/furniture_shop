@@ -3,7 +3,7 @@ import { stats } from '../data'
 
 const Stats = () => {
   return (
-    <div className='bg-accent rounded-xl absolute bottom-0 left-[7%] right-[7%]'>
+    <div className='bg-accent rounded-xl absolute lg:-bottom-[80px] bottom-0  left-[7%] right-[7%]' >
     <div className='p-8 max-w-[1140px] h-full mx-auto'>
       <div className='grid lg:grid-cols-4 grid-cols-2 h-full text-center gap-y-8'>
         {stats.map((val, idx)=>{

@@ -4,7 +4,7 @@ import Stats from './Stats'
 
 const Hero = () => {
   return (
-    <div className='bg-hero bg-no-repeat bg-right bg-cover w-full h-[97vh] text-white relative px-4'>
+    <div className='bg-hero bg-no-repeat bg-right bg-cover w-full h-[117vh] text-white relative px-4'>
         <div className='flex flex-col items-center text-center justify-center lg:h-full h-[90%]'>
           <div className='lg:text-[55px] text-[27px] max-w-[790px] leading-tight font-semibold mb-8 '>{hero.title}</div>
           <div className='subtitle max-w-[640px]'>{hero.subtitle}</div>
